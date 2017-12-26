@@ -1316,6 +1316,21 @@ body:not(.page-template) .post-title {
     color: #dd4b39;
 }
 
+.post-content h4 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.post-content h4::after {
+  display: block;
+  width: 50px;
+  height: 1px;
+  margin: 15px auto 0 auto;
+  background-color: #BDBDBD;
+  content: "";
+}
+
 
 /* ==========================================================================
    6. Author profile
